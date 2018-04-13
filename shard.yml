@@ -1,0 +1,13 @@
+name: crystalapp
+version: 0.1.0
+
+authors:
+  - Michel Perez <michel.ingesoft@gmail.com>
+
+targets:
+  crystalapp:
+    main: src/crystalapp.cr
+
+crystal: 0.24.2
+
+license: MIT
