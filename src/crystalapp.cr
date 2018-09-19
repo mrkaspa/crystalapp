@@ -1,6 +1,15 @@
 require "./crystalapp/*"
 
-# TODO: Write documentation for `Crystalapp`
 module Crystalapp
-  # TODO: Put your code here
+  def hello(name : String?)
+    if name # validates nil
+      cad = name + name
+      puts "Hola #{cad}"
+    end
+  end
 end
+
+include Crystalapp
+
+hello("Demo")
+hello(nil)
